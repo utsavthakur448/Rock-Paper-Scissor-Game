@@ -1,4 +1,4 @@
-# Rock Paper Scissors – Dark Theme Web Game
+# Rock Paper Scissors Game
 An interactive, animated, and Responsive Rock Paper Scissors game built using HTML, CSS, and JavaScript — featuring a sleek dark theme and real-time score tracking!
 
 🔗 Live Demo
