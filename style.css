@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #121212;
+    padding: 20px;
+}
+
+h1 {
+    background-color: #1f1f1f;
+    padding: 20px;
+    font-size: 2.5rem;
+    color: whitesmoke;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Game Choices */
+#choices {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 40px 0;
+    animation: slideUp 0.8s ease-out;
+}
+
+i.choice {
+    width: 120px;
+    height: 120px;
+    /* object-fit: cover; */
+    border-radius: 50%;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    border: 3px solid yellow;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+i.choice:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+/* Score Board */
+#score {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.user-score,
+.comp-score {
+    font-size: 2rem;
+    color: yellow;
+}
+
+/* Result Section */
+#plays {
+    background-color: #1f1f1f;
+    padding: 20px 30px;
+    margin: auto;
+    width: fit-content;
+    border-radius: 10px;
+    box-shadow: 0 0 10px yellow;
+    animation: fadeIn 1s ease-in;
+}
+
+#play {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: yellow;
+}
+
+#computer-choice {
+    color: yellow;
+    font-size: 1rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    img.choice {
+        width: 80px;
+        height: 80px;
+    }
+
+    #score {
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .user-score,
+    .comp-score {
+        font-size: 1.5rem;
+    }
+
+    #plays {
+        width: 90%;
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
