@@ -8,7 +8,7 @@ https://utsavthakur448.github.io/Rock-Paper-Scissor-Game/
 ## 📚 How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/utsavthakur448/Simon-Says-Game.git
+   git clone https://github.com/utsavthakur448/Rock-Paper-Scissor-Game.git
 2. Open index.html in your browser.  
 
 
