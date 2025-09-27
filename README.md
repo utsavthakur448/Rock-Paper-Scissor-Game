@@ -2,7 +2,7 @@
 An interactive, animated, and Responsive Rock Paper Scissors game built using HTML, CSS, and JavaScript — featuring a sleek dark theme and real-time score tracking!
 
 🔗 Live Demo
-fggeg
+A responsive Rock Paper Scissors web game built with HTML, CSS, and JavaScript featuring a dark theme, animations, and real-time score tracking. Deployed using GitHub Pages.z
 
 🧠 How It Works
 - You pick: ✊ Rock, 🖐️ Paper, or ✌️ Scissors
