@@ -19,12 +19,12 @@ https://utsavthakur448.github.io/Rock-Paper-Scissor-Game/
 - Scores are tracked live for both you and the computer  
 
 ✨ Features  
-✅ Dark theme for modern look  
-✅ Responsive layout for mobile and desktop 📱💻  
-✅ Real-time score updates  
-✅ Smooth hover and scale animations  
-✅ Displays computer's choice after every round  
-✅ No reloads — pure JavaScript interactivity  
+- ✅ Dark theme for modern look  
+- ✅ Responsive layout for mobile and desktop 📱💻  
+- ✅ Real-time score updates  
+- ✅ Smooth hover and scale animations  
+- ✅ Displays computer's choice after every round  
+- ✅ No reloads — pure JavaScript interactivity  
   
 
 🛠️ Built With
